@@ -21,36 +21,36 @@
  * @property timestamp $expires_at
  * @property JobeetCategory $JobeetCategory
  * 
- * @method integer        get()               Returns the current record's "category_id" value
- * @method string         get()               Returns the current record's "type" value
- * @method string         get()               Returns the current record's "company" value
- * @method string         get()               Returns the current record's "logo" value
- * @method string         get()               Returns the current record's "url" value
- * @method string         get()               Returns the current record's "position" value
- * @method string         get()               Returns the current record's "location" value
- * @method string         get()               Returns the current record's "description" value
- * @method string         get()               Returns the current record's "how_to_apply" value
- * @method string         get()               Returns the current record's "token" value
- * @method boolean        get()               Returns the current record's "is_public" value
- * @method boolean        get()               Returns the current record's "is_activated" value
- * @method string         get()               Returns the current record's "email" value
- * @method timestamp      get()               Returns the current record's "expires_at" value
- * @method JobeetCategory get()               Returns the current record's "JobeetCategory" value
- * @method JobeetJob      set()               Sets the current record's "category_id" value
- * @method JobeetJob      set()               Sets the current record's "type" value
- * @method JobeetJob      set()               Sets the current record's "company" value
- * @method JobeetJob      set()               Sets the current record's "logo" value
- * @method JobeetJob      set()               Sets the current record's "url" value
- * @method JobeetJob      set()               Sets the current record's "position" value
- * @method JobeetJob      set()               Sets the current record's "location" value
- * @method JobeetJob      set()               Sets the current record's "description" value
- * @method JobeetJob      set()               Sets the current record's "how_to_apply" value
- * @method JobeetJob      set()               Sets the current record's "token" value
- * @method JobeetJob      set()               Sets the current record's "is_public" value
- * @method JobeetJob      set()               Sets the current record's "is_activated" value
- * @method JobeetJob      set()               Sets the current record's "email" value
- * @method JobeetJob      set()               Sets the current record's "expires_at" value
- * @method JobeetJob      set()               Sets the current record's "JobeetCategory" value
+ * @method integer        getCategoryId()               Returns the current record's "category_id" value
+ * @method string         getType()               Returns the current record's "type" value
+ * @method string         getCompany()               Returns the current record's "company" value
+ * @method string         getLogo()               Returns the current record's "logo" value
+ * @method string         getUrl()               Returns the current record's "url" value
+ * @method string         getPosition()               Returns the current record's "position" value
+ * @method string         getLocation()               Returns the current record's "location" value
+ * @method string         getDescription()               Returns the current record's "description" value
+ * @method string         getHowToApply()               Returns the current record's "how_to_apply" value
+ * @method string         getToken()               Returns the current record's "token" value
+ * @method boolean        getIsPublic()               Returns the current record's "is_public" value
+ * @method boolean        getIsActivated()               Returns the current record's "is_activated" value
+ * @method string         getEmail()               Returns the current record's "email" value
+ * @method timestamp      getExpiresAt()               Returns the current record's "expires_at" value
+ * @method JobeetCategory getJobeetCategory()               Returns the current record's "JobeetCategory" value
+ * @method JobeetJob      setCategoryId()               Sets the current record's "category_id" value
+ * @method JobeetJob      setType()               Sets the current record's "type" value
+ * @method JobeetJob      setCompany()               Sets the current record's "company" value
+ * @method JobeetJob      setLogo()               Sets the current record's "logo" value
+ * @method JobeetJob      setUrl()               Sets the current record's "url" value
+ * @method JobeetJob      setPosition()               Sets the current record's "position" value
+ * @method JobeetJob      setLocation()               Sets the current record's "location" value
+ * @method JobeetJob      setDescription()               Sets the current record's "description" value
+ * @method JobeetJob      setHowToApply()               Sets the current record's "how_to_apply" value
+ * @method JobeetJob      setToken()               Sets the current record's "token" value
+ * @method JobeetJob      setIsPublic()               Sets the current record's "is_public" value
+ * @method JobeetJob      setIsActivated()               Sets the current record's "is_activated" value
+ * @method JobeetJob      setEmail()               Sets the current record's "email" value
+ * @method JobeetJob      setExpiresAt()               Sets the current record's "expires_at" value
+ * @method JobeetJob      setJobeetCategory()               Sets the current record's "JobeetCategory" value
  * 
  * @package    jobeet
  * @subpackage model

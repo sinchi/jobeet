@@ -15,12 +15,13 @@ class jobActions extends sfActions
     $this->jobeet_jobs = Doctrine_Core::getTable('JobeetJob')
       ->createQuery('a')
       ->execute();
+    $this->nom = "belghar ayoub";
   }
 
   public function executeShow(sfWebRequest $request)
   {
-    $this->jobeet_job = Doctrine_Core::getTable('JobeetJob')->find(array($request->getParameter('id')));
-    $this->forward404Unless($this->jobeet_job);
+    $this->job = Doctrine_Core::getTable('JobeetJob')->find(array($request->getParameter('id')));
+    $this->forward404Unless($this->job);
   }
 
   public function executeNew(sfWebRequest $request)
@@ -73,7 +74,7 @@ class jobActions extends sfActions
     {
       $jobeet_job = $form->save();
 
-      $this->redirect('job/edit?id='.$jobeet_job->get());
+      $this->redirect('job/edit?id='.$jobeet_job->get('id'));
     }
   }
 }
