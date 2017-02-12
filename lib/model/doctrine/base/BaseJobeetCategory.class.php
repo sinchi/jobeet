@@ -10,14 +10,14 @@
  * @property Doctrine_Collection $JobeetAffiliate
  * @property Doctrine_Collection $JobeetCategoryAffiliate
  * 
- * @method string              get()                        Returns the current record's "name" value
- * @method Doctrine_Collection get()                        Returns the current record's "JobeetJob" collection
- * @method Doctrine_Collection get()                        Returns the current record's "JobeetAffiliate" collection
- * @method Doctrine_Collection get()                        Returns the current record's "JobeetCategoryAffiliate" collection
- * @method JobeetCategory      set()                        Sets the current record's "name" value
- * @method JobeetCategory      set()                        Sets the current record's "JobeetJob" collection
- * @method JobeetCategory      set()                        Sets the current record's "JobeetAffiliate" collection
- * @method JobeetCategory      set()                        Sets the current record's "JobeetCategoryAffiliate" collection
+ * @method string              getName()                        Returns the current record's "name" value
+ * @method Doctrine_Collection getJobeetJob()                        Returns the current record's "JobeetJob" collection
+ * @method Doctrine_Collection getJobeetAffiliate()                        Returns the current record's "JobeetAffiliate" collection
+ * @method Doctrine_Collection getJobeetCategoryAffiliate()                        Returns the current record's "JobeetCategoryAffiliate" collection
+ * @method JobeetCategory      setName()                        Sets the current record's "name" value
+ * @method JobeetCategory      setJobeetJob()                        Sets the current record's "JobeetJob" collection
+ * @method JobeetCategory      setJobeetAffiliate()                        Sets the current record's "JobeetAffiliate" collection
+ * @method JobeetCategory      setJobeetCategoryAffiliate()                        Sets the current record's "JobeetCategoryAffiliate" collection
  * 
  * @package    jobeet
  * @subpackage model
