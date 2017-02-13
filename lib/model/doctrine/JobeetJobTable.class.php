@@ -7,6 +7,16 @@
  */
 class JobeetJobTable extends Doctrine_Table
 {
+    static public $types = array(
+        'full-time' => 'Full time',
+        'part-time' => 'Part time',
+        'freelance' => 'Freelane'
+    );
+    
+    public function getTypes(){
+        return self::$types;
+    }
+
     /**
      * Returns an instance of this class.
      *
