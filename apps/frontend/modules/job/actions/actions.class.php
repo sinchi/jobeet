@@ -12,7 +12,7 @@ class jobActions extends sfActions
 {
   public function executeIndex(sfWebRequest $request)
   {
-      
+
      /* $q = Doctrine_Query::create()
               ->from('JobeetJob j')
               ->where('j.expires_at > ?', date('Y-m-d H:i:s', time()));*/
@@ -84,3 +84,5 @@ class jobActions extends sfActions
     }
   }
 }
+
+// branch master
