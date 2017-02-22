@@ -85,5 +85,4 @@ class jobActions extends sfActions
   }
 }
 
-// test conflit
-// ok
+// branch conflict
